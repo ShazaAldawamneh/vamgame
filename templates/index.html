@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% block main_content %}
+<h1> Welcome to Vam Game  </h1> 
+<p id = "text"> In this game you will try to save the pink player from the vampires, by shooting, running or hiding, SEE instructions before starting the game.
+    The number of vampires will increase after winning a level.
+    YOU NEED to register first to be able to play!
+</p>
+<section id = "inst"> 
+        <h2> Instruction: </h2>
+        <p class = "sen"> Click the Left Arro to move to Left </p>
+        <p class = "sen"> Click the Right Arro to move to Right </p>
+        <p class = "sen"> Click the Down Arro to move to Down </p>
+        <p class = "sen"> Click the Top Arro to move to Top </p>
+        <p class = "sen"> Click the Q key to disappear or hide </p>
+        <p class = "sen"> Click the Space Key to shoot </p>
+        <p class = "sen"> You can stop the game by clicking cancel when the a tap pop up on the top of the window, after you kill an enemy  </p>
+        <p class = "sen"> Your match details will stored in your profile! </p>
+
+</section>
+<p> <a id="Starting" href="{{ url_for('game') }}">Start game </a></p> 
+<p> <a id="sta" href="{{ url_for('lb') }}">leaderboard </a></p> 
+
+
+{% endblock %}

@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+
+{% block main_content %}
+<h1 id = "lb"> Leaderboard  </h1>
+
+
+<table>
+    <tr>
+        <th colspan = "4" scope = "col">leaderboard </th>
+    </tr>
+    <tr>
+        <th>user_id:</th>
+        <th>Number of enemeies killed</th>
+        <th>Number of player killed </th>
+        <th> Level</th>
+    </tr>
+    {% for i in users_scores %}
+    <tr>
+        <td>{{i["user_id"]}} </td>
+        <td>{{i["num_killed_mon"]}}</td>
+        <td>{{i["num_killed_player"]}} </td>
+        <td>{{i["level"]}} </td>
+    </tr>
+    {% endfor %}
+</table>
+
+
+{% endblock %}

@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+
+{% block main_content %}
+    <form action="" method = "POST" novalidate>
+
+<section id ="mru">
+    {{form.hidden_tag()}}
+
+    {{form.user_id.label}}
+    {{form.user_id()}}
+    {% for error in form.user_id.errors %}
+        {{ error }}
+    {% endfor %}
+</section>
+
+<section id ="mrp">
+
+    {{form.password.label}}
+    {{form.password()}}
+    {% for error in form.password.errors %}
+        {{ error }}
+    {% endfor %}
+</section>
+<section id ="mrpp">
+
+    {{form.password2.label}}
+    {{form.password2()}}
+    {% for error in form.password2.errors %}
+        {{ error }}
+    {% endfor %}
+</section>
+<section id = "mrs">
+    {{form.submit()}}
+
+</section>
+</form>
+
+
+{% endblock %}

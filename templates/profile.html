@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+
+{% block main_content %}
+<h1 id = "p"> Your Profile </h1>
+
+
+<table>
+    <tr>
+        <th colspan = "3" scope = "col">Your recent game detailes </th>
+    </tr>
+    <tr>
+        <th>Level:</th>
+        <th>Number of times you killed the enemeies </th>
+        <th>Number of times the enemies killed you</th>
+    </tr>
+    <tr> 
+        <td>{{user_scores["level"]}} </td>
+        <td>{{user_scores["num_killed_mon"]}}</td>
+        <td>{{user_scores["num_killed_player"]}} </td>
+    </tr>
+
+</table>
+
+<a id = "rp" href="{{url_for('reset')}}"> Reset your password ? </a>
+
+{% endblock %}

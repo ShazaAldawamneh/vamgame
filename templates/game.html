@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+{% block main_content %}
+    <script src="../static/ca2.js" type="module"></script>
+        <section id = "inst"> 
+            <h2> Instruction: </h2>
+            <p class = "sen"> Click the Left Arrow to move to Left </p>
+            <p class = "sen"> Click the Right Arrow to move to Right </p>
+            <p class = "sen"> Click the Down Arrow to move to Down </p>
+            <p class = "sen"> Click the Top Arrow to move to Top </p>
+            <p class = "sen"> Click the Q key to disappear or hide </p>
+            <p class = "sen"> Click the Space Key to shoot </p>
+            <p class = "sen"> You can stop the game by clicking cancel when the a tap pop up on the top of the window, after you kill an enemy </p>
+            <p class = "sen"> Your match details will stored in your profile! </p>
+
+        </section>
+
+        <section id="level">
+            <p class = "sen">Your Level</p> 
+            <p id="outcome"> </p>
+        </section>
+        <section id="monhealth">
+            <p class = "sen"> Enemy health</p> 
+            <p id="mon_points"></p>
+        </section>
+        <section id="playerhealth">
+           <p class = "sen"> Player health</p> 
+            <p id="player_points"></p>
+        </section>
+        <section id="monKilled">
+            <p class = "sen">Enemy kileed times </p> 
+            <p id="sentence_from_mon"></p>
+        </section>
+        <section id="playerKilled">
+            <p class = "sen">Player killed times </p>  
+            <p id="sentence_from_player"></p>
+
+        </section>
+        <canvas id = "can" width="512" height="320"></canvas>
+
+        <p id="end"></p>
+
+        
+
+{% endblock %}
