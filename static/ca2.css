@@ -1,0 +1,245 @@
+#can{
+    position: absolute;
+    top: 100px;
+    left: 300px;
+
+    border: 1px solid black;
+    background-color: rgb(199, 214, 214);
+    margin: 1em auto;
+
+}
+#inst{
+    position: absolute;
+    top: 0;
+    bottom: 200;
+    right: 0;
+    width: 300px;
+    border: 4px solid rgb(136, 99, 99);
+    background-color: rgb(233, 232, 232);
+
+    margin: 1em auto;
+}
+#level{
+    position: absolute;
+    width: 130px;
+    right: 310px;
+    top: 0px;
+
+    border: 4px solid rgb(209, 139, 139);
+    margin: 1em auto;
+}
+#monhealth{
+    position: absolute;
+    right: 445px;
+    top: 0px;
+
+    width: 130px;
+    border: 4px solid rgb(204, 204, 142);
+    margin: 1em auto;
+}
+#playerhealth{
+    width: 130px;
+    position: absolute;
+    right: 580px;
+    top: 0px;
+    border: 4px solid rgb(146, 146, 223);
+    margin: 1em auto;
+}
+#monKilled{
+    position: absolute;
+    right: 715px;
+    top: 0px;
+    width: 180px;
+    border: 4px solid rgb(150, 202, 141);
+    margin: 1em auto;
+}
+#playerKilled{
+    position: absolute;
+    right: 900px;
+    top: 0px;
+    width: 180px;
+
+    border: 4px solid rgb(223, 146, 188);
+    margin: 1em auto;
+}
+
+.sen{
+    border: 4px solid rgb(216, 167, 169);
+    margin: 1em auto;
+    background: rgb(206, 193, 193);
+}
+#mp{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100px;
+    border: 4px solid rgb(223, 146, 188);
+    margin: 1em auto;
+}
+#mn{
+    position: absolute;
+    top: 50px;
+    left: 0px;
+
+    width: 100px;
+
+    border: 4px solid rgb(223, 146, 188);
+    margin: 1em auto;
+}
+
+#mo{
+    position: absolute;
+    left: 0px;
+    top: 80px;
+    width: 100px;
+
+    border: 4px solid rgb(223, 146, 188);
+    margin: 1em auto;
+}
+#Starting{
+    position: absolute;
+    left: 0px;
+    top: 110px;
+    width: 100px;
+    border: 4px solid rgb(223, 146, 188);
+    margin: 1em auto;
+}
+#sta{
+    position: absolute;
+    left: 0px;
+    top: 150px;
+    width: 100px;
+    border: 4px solid rgb(223, 146, 188);
+    margin: 1em auto;
+}
+#ml{
+    position: absolute;
+    left: 0px;
+    top: 30px;
+    width: 100px;
+
+    border: 4px solid rgb(223, 146, 188);
+    margin: 1em auto;
+}
+#mr{
+    position: absolute;
+    left:0px;
+    top: 60px;
+    width: 100px;
+
+    border: 4px solid rgb(223, 146, 188);
+    margin: 1em auto;
+}
+h1{
+    color: rgb(56, 14, 48);
+    position: absolute;
+    left:300px;
+    top: 0px;
+}
+#text{
+    color: rgb(56, 13, 37);
+    position: absolute;
+    left:250px;
+    top: 60px;
+    width: 500px;
+}
+#mll{
+    position: absolute;
+    left: 110px;
+    top: 30px;
+    width: 100px;
+
+}
+#mlp{
+    position: absolute;
+    left: 230px;
+    top: 30px;
+    width: 100px;
+
+}
+#mr{
+    position: absolute;
+    left:0px;
+    top: 60px;
+    width: 100px;
+
+    border: 4px solid rgb(223, 146, 188);
+    margin: 1em auto;
+}
+#mru{
+    position: absolute;
+    left: 110px;
+    top: 60px;
+    width: 100px;
+
+}
+#mrp{
+    position: absolute;
+    left: 230px;
+    top: 60px;
+    width: 100px;
+
+}
+#mrpp{
+    position: absolute;
+    left: 330px;
+    top: 60px;
+    width: 100px;
+}
+#mrs{
+    position: absolute;
+    left: 505px;
+    top: 79px;
+    width: 50px;
+}
+
+#mls{
+        position: absolute;
+        left: 400px;
+        top: 50px;
+        width: 50px;
+    }
+table {
+    position: absolute;
+        left: 400px;
+        top: 110px;
+        justify-items: center;
+        border-collapse: collapse;
+        border: 1px solid black;
+
+}
+     
+    td, th {
+         vertical-align: middle;
+         border: 1px solid rgb(63, 21, 65);
+         padding: 1rem;
+         background-color: rgb(204, 171, 193);
+    
+     }
+    
+    th {
+         text-align: center;
+    }
+    
+#p{
+    position: absolute;
+        left: 450px;
+        top: 0px;
+}
+#rp{
+    position: absolute;
+    left: 0px;
+    top: 190px;
+    width: 100px;
+
+    border: 4px solid rgb(223, 146, 188);
+    margin: 1em auto;
+}
+#end{
+    position: absolute;
+    color: red;
+    font-size: 50px ;
+    position: absolute;
+    top: 420px;
+    left: 500px;
+}

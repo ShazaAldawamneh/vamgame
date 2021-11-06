@@ -1,5 +1,3 @@
-
-# vamgame
 let canvas;
 let context;
 let request_id;
