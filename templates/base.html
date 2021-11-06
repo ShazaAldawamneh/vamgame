@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset = "utf-8"/>
+    <title> Vam Game</title>
+    <link rel="stylesheet" href="{{url_for('static', filename = 'ca2.css')}}"/>
+</head>
+<body>
+    <header>
+        {% if g.user %}
+        <section>
+            <a id = "mp"href="{{url_for('index')}}"> Home page </a>
+            <a id = "mn" href="{{ url_for('logout') }}">logout</a>
+            <a id = "mo" href="{{ url_for('profile') }}">Profile</a>
+
+        </section>
+
+        {% else %}
+        <section>
+            <a id = "mp" href="{{url_for('index')}}"> Home page </a>
+            <a  id = "ml"href="{{ url_for('login') }}">login</a>
+            <a id = "mr"href="{{ url_for('register') }}">Register</a>
+        </section>
+        {% endif %}
+    </header>
+    {% block main_content %}
+    {% endblock %}
+
+
+</body>
+</html>
